@@ -192,3 +192,24 @@ const birthYear = 1991;
 
 var job = "programmer";
 job = "teacher";
+
+//Basic operators
+//Math operators
+const now = 2024;
+const agePhu = now - 2003;
+const ageSarah = now - 2018;
+console.log(agePhu, ageSarah);
+
+const firstName1 = "Phu";
+const lastName = "Dai";
+console.log(firstName1 + " " + lastName);
+
+//Assignment operators
+let x = 10 + 5;
+// x += 10; // x = x + 10 = 25
+// x *= 4; // x = x * 4 = 100
+// x++;
+// x--;
+console.log(agePhu > ageSarah);
+console.log(ageSarah >= 18);
+console.log(now - 2003 > now - 2018);
