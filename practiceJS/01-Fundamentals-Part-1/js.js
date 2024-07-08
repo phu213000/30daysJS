@@ -213,3 +213,25 @@ let x = 10 + 5;
 console.log(agePhu > ageSarah);
 console.log(ageSarah >= 18);
 console.log(now - 2003 > now - 2018);
+//String
+
+const firstName2 = "Phu";
+const job2 = "teacher";
+const birthYear2 = 2003;
+const year2 = 2024;
+
+const phu =
+  "I'm " +
+  firstName2 +
+  ", a " +
+  (year2 - birthYear2) +
+  " years old " +
+  job2 +
+  "!";
+console.log(phu);
+//False string ?
+console.log("23" - "10" - 3);
+console.log("23" + "10" + 3);
+
+//Template literals
+const phuNew = `I'm ${firstName2}, a ${year2 - birthYear2} years old ${job2}!`;
